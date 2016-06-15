@@ -7,5 +7,16 @@ output: html_document
 
 ```{r}
 library(faraway)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+data(gala)
+```
+
+```{r}
+mdl <- lm(Species ~ Area + Elevation + Nearest + Scruz + Adjacent, data = gala)
+summary(mdl)
 ```
 
