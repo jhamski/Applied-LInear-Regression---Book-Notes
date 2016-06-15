@@ -1,0 +1,11 @@
+---
+title: "Linear Models with R Ch. 1"
+author: "J. Hamski"
+date: "June 14, 2016"
+output: html_document
+---
+
+```{r}
+library(faraway)
+```
+
